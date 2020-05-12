@@ -1,0 +1,61 @@
+@import "../../theme.scss";
+
+$size: 40px;
+$font-size: 14px;
+
+.die {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $size;
+  width: $size;
+  font-size: $font-size;
+  padding: 5px;
+  margin: 5px;
+  color: darken($purple, 60%);
+  box-shadow: 0 1px 0 2px darken($purple, 60%);
+  border-radius: 4px;
+  font-family: Arvo;
+  font-weight: bolder;
+  cursor: pointer;
+
+  &.sm {
+    height: $size / 2;
+    width: $size / 2;
+    font-size: $font-size / 2;
+  }
+
+  &.lg {
+    height: $size * 1.5;
+    width: $size * 1.5;
+    font-size: $font-size * 1.5;
+  }
+
+  &.d4 {
+    background-color: $d4-color;
+  }
+
+  &.d6 {
+    background-color: $d6-color;
+  }
+
+  &.d8 {
+    background-color: $d8-color;
+  }
+
+  &.d10 {
+    background-color: $d10-color;
+  }
+
+  &.d12 {
+    background-color: $d12-color;
+  }
+
+  &.d20 {
+    background-color: $d20-color;
+  }
+
+  &.d100 {
+    background-color: $d100-color;
+  }
+}

@@ -1,0 +1,25 @@
+[debug] [2020-04-27T01:31:22.073Z] ----------------------------------------------------------------------
+[debug] [2020-04-27T01:31:22.079Z] Command:       /home/mrprim/.nvm/versions/node/v12.6.0/bin/node /usr/local/bin/firebase init
+[debug] [2020-04-27T01:31:22.079Z] CLI Version:   7.0.2
+[debug] [2020-04-27T01:31:22.079Z] Platform:      linux
+[debug] [2020-04-27T01:31:22.079Z] Node Version:  v12.6.0
+[debug] [2020-04-27T01:31:22.079Z] Time:          Sun Apr 26 2020 21:31:22 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-04-27T01:31:22.079Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-04-27T01:31:22.181Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-27T01:31:22.181Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/mrprim/git/honey-heist
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+

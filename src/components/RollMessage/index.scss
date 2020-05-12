@@ -1,0 +1,35 @@
+@import "../../theme.scss";
+
+.message.roll {
+  .die-result {
+    font-weight: bolder;
+
+    &.d4 {
+      color: $d4-color;
+    }
+
+    &.d6 {
+      color: $d6-color;
+    }
+
+    &.d8 {
+      color: $d8-color;
+    }
+
+    &.d10 {
+      color: $d10-color;
+    }
+
+    &.d12 {
+      color: $d12-color;
+    }
+
+    &.d20 {
+      color: $d20-color;
+    }
+
+    &.d100 {
+      color: $d100-color;
+    }
+  }
+}

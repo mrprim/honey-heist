@@ -1,0 +1,31 @@
+@import "../../theme.scss";
+
+.dice-roller {
+  width: 100%;
+  padding: 15px 25px;
+  border-radius: 25px;
+  color: white;
+  background-color: desaturate(darken($purple, 20%), 80%);
+  box-shadow: 0 1px 0 0.5px desaturate(darken($purple, 40%), 50%);
+
+  .dice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.75);
+  }
+
+  .pop-in {
+    animation: popIn 0.35s cubic-bezier(0.29, -0.44, 0.76, 2);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes popIn {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}

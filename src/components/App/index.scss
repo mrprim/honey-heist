@@ -1,0 +1,15 @@
+@import "../../theme.scss";
+
+.App {
+  padding: .001px;
+  margin-top: .001px;
+  min-height: 100%;
+  text-align: center;
+  background-color: $base-color;
+
+  .contents {
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
